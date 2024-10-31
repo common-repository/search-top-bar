@@ -1,0 +1,23 @@
+.jlg_admin_title{
+  padding-left:20px!important;
+  margin-bottom:40px!important;
+  margin-top:20px!important;
+  border:1px solid #000;
+}
+.jlg_admin_form h2{
+  text-decoration: underline;
+}
+.jlg_admin_form th{
+  color:#3d3d3d;
+}
+.jlg_admin_form{
+  padding-left:20px;
+}
+.jlg_style_select,
+.jlg_input_text{
+  width:250px;
+}
+
+.jlg_icon_select{
+  width:72px;
+}

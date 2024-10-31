@@ -1,0 +1,128 @@
+#jlg_sb{
+  display: flex;
+  left:0px;
+  top:0;
+  position:relative;
+  z-index:99999;
+}
+.jlg_column_11{
+    width:100%;
+    display: flex;
+    align-items: center;
+}
+.jlg_column_12{
+    width:100%;
+    display: flex;
+    align-items: center;
+}
+.jlg_column_12 form{
+  margin-left: auto;
+}
+.jlg_column_21{
+    width:70%;
+    display: flex;
+    align-items: center;
+}
+.jlg_column_22{
+    width:30%;
+    display: flex;
+    align-items: center;
+}
+.jlg_inf_data{
+  display: inline-block;
+  padding-right:20px;
+}
+
+#jlg_search_bar{
+  width:300px;
+  margin-left: auto;
+}
+#jlg-top-search input[type=search] {
+  border-style: solid;
+  border-color:#ddd;
+  border-width:1px 0px 1px 1px;
+  float: left;
+  font-weight: 400;
+  padding: 0 20px 0 20px;
+  position: relative;
+  width: 75%;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 15px;
+}
+#jlg-top-search.jlg-sb-style-1 input[type=search] {
+    border-radius: 45px 0 0 45px;
+}
+#jlg-top-search.jlg-sb-style-2 input[type=search] {
+  border-radius: 0;
+}
+#jlg-top-search input[type="submit"]{
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  width: 25%;
+  padding: 0;
+  border-style: solid;
+  border-color:#ddd;
+  border-width:1px 1px 1px 0px;
+}
+#jlg-top-search.jlg-sb-style-1 input[type="submit"] {
+    border-radius: 0 40px 39px 0;
+}
+
+#jlg-top-search.jlg-sb-style-2 input[type="submit"] {
+  border-radius: 0;
+}
+#jlg-top-information{
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:300;
+}
+.far{
+  margin-right: 8px;
+}
+.fas{
+  margin-right: 8px;
+}
+@media all and (max-width:1024px){
+  .jlg_column_12 form{
+    margin: 0 auto;
+  }
+  .jlg_column_21{
+      width:50%;
+  }
+  .jlg_column_22{
+      width:50%;
+  }
+  .jlg_column_22 form{
+    margin-left:auto;
+  }
+  #jlg_sb{
+    padding-left:  20px!important;
+    padding-right: 20px!important;
+  }
+}
+@media all and (max-width:760px){
+  .jlg_column_21{
+      width:100%;
+      margin-bottom:10px;
+  }
+  .jlg_column_22{
+      width:100%;
+  }
+  .jlg_column_22 form{
+    margin:0 auto;
+  }
+  .jlg_inf_data{
+      margin: 0 auto;
+  }
+  #jlg_sb{
+    display: inline-block;
+    height: auto!important;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left:  20px!important;
+    padding-right: 20px!important;
+    width:100%;
+  }
+}
